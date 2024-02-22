@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,10,10,1) 44%, rgba(0,212,255,1) 90%);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img{ 
+    font-weight: 900px;
+}
+p{
+    color: aliceblue;
+}
+h2{
+    color: rgb(58, 233, 218); 
+}
+h1{
+    color: blue
+}
+.btn{
+    color: aqua;
+    text-decoration: none;
+    background-color: black;
+    transition: 3s;
+}
+.btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: aqua;
+}
+.section{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.section-text{
+    width: 70%;
+}
+.picture{
+    width: 30%;
+}
+.picture img{
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,41,65,1) 24%, rgba(0,212,255,1) 100%);
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+nav a:hover{
+    color: brown;
+    text-decoration: underline;
+    transition: 1s;
+}
